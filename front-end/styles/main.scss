@@ -1,0 +1,564 @@
+body {
+    background-color: #fff;
+    font-family: 'Assistant',
+        sans-serif;
+    color: #11283A;
+}
+
+// NAVBAR
+.navbar {
+    height: 70px;
+    margin-top: 30px;
+}
+
+.navbar-brand {
+    img {
+        max-height: 50px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            font-weight: 600;
+            font-size: 20px;
+            color: #11283A;
+
+            &.active {
+                font-weight: bold;
+                color: #036C8A;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -10px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0px;
+}
+
+.btn-login {
+    background-color: #11283A;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+
+    &:hover {
+        background-color: #123d5e;
+        color: #ffff;
+    }
+}
+
+// HEADER
+header {
+    padding: 219px 0px 170px;
+    margin-top: -105px;
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+
+    h1,
+    p {
+        color: #ffff;
+    }
+
+    h1 {
+        font-family: 'Cuprum',
+            sans-serif;
+        font-weight: bold;
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #054D61;
+        color: #ffff;
+        font-weight: 600;
+        font-size: 22px;
+
+        &:hover {
+            background-color: #086680;
+            color: #ffff;
+        }
+    }
+}
+
+// STATIS atau CONTENT
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #ffff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #31638A;
+    }
+}
+
+// POPULAR
+.section-popular {
+    min-height: 492px;
+    background-color: #04111C;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 150px;
+
+        h2,
+        p {
+            color: #ffff;
+            margin-top: -5px;
+        }
+
+        h2 {
+            font-family: 'Cuprum',
+                sans-serif;
+            font-weight: bold;
+            font-size: 45px;
+        }
+    }
+}
+
+// CONTENT-POPULAR
+.section-popular-content {
+    margin-top: 60px;
+
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: black;
+            color: #ffff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 30px;
+        }
+
+        .travel-country {
+            font-size: 18px;
+            color: #ffff;
+        }
+
+        .travel-location {
+            font-size: 24px;
+            font-weight: 600;
+            color: #ffff;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: #054D61;
+                color: #ffff;
+                font-size: 18px;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: #086680;
+                    color: #ffff;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+// NETWORKS
+.section-networks {
+    background-color: #ffff;
+    margin-top: -250px;
+    padding-top: 350px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Cuprum',
+            sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    p {
+        margin-top: -10px;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+// TESTIMONIAL
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #d5d8db 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Cuprum',
+            sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+    p {
+        margin-top: -10px;
+        font-size: 18px;
+    }
+}
+
+// CONTENT-TESTIMONIAL
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 30px 20px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 420px;
+            min-width: 180px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 23px;
+            color: #3B556A;
+        }
+
+        .testimonial {
+            font-weight: 500;
+            font-size: 24px;
+            color: #8397A7;
+        }
+
+        .trip-to {
+            font-weight: 600;
+            font-size: 22px;
+            color: #8293a0;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #054D61;
+        color: #ffff;
+        font-weight: 600;
+        font-size: 22px;
+
+        &:hover {
+            background-color: #086680;
+            color: #ffff;
+        }
+    }
+
+    .btn-need-help {
+        background-color: #C3CACF;
+        color: #839FBC;
+        font-weight: 600;
+        font-size: 22px;
+
+        &:hover {
+            background-color: #8f9faa;
+            color: #d3dae0;
+        }
+    }
+}
+
+// FOOTER
+.section-footer {
+    .list-unstyled {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    h5 {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    a {
+        color: #11283A;
+    }
+}
+
+
+// HALAMAN DETAILS
+// header
+.section-details-header {
+    min-height: 310px;
+    background-color: #054D61;
+    margin-top: -100px;
+}
+
+.section-details-content {
+    margin-top: -180px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-item {
+        color: #A6C8E2;
+        &.active {
+            font-weight: 600;
+            color: #A6C8E2;
+        }
+    }
+
+    .card-details {
+        padding: 30px;
+        border-radius: 10px;
+
+        h1 {
+            font-size: 26px;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        h4 {
+            font-size: 20px;
+            color: #99A8B4;
+            font-weight: 600;
+        }
+        p {
+            font-size: 18px;
+            color: #71828F;
+        }
+    }
+
+    .card-right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
+    }
+
+    .trip-informations {
+        th {
+            font-weight: 600;
+            font-size: 18px;
+            color: #11283A;
+        }
+        td {
+            font-weight: 600;
+            font-size: 16px;
+            color: #71828F;
+        }
+
+        .text-total {
+            .textblue {
+                color: #11283A;
+                font-weight: 700;
+            }
+            .textorange {
+                color: #F89706;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .features {
+        margin-top: 20px;
+
+        h3{
+            font-size: 18px;
+            color: #11283A;
+            margin-bottom: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+    }
+
+    .features-image{
+        width: 45px;
+        height: 45px;
+        float: left;
+    } 
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+            
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive {
+                border: 4px solid #1ABC9C !important;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .members {
+        .member-image {
+            width: 40px;
+            height: 40px;
+            margin-right: 6px;
+        }
+    }
+
+    .join-container {
+        margin-top: -16px;
+
+        .btn-join-now {
+            background-color: #054D61;
+            color: #fff;
+            border-radius: 0;
+    
+            &:hover {
+            background-color: #075c74;
+            color: #fff;
+            }
+        }
+    }
+
+    .alert-note {
+        background-color: #EBECEC;
+        h3 {
+            font-weight: 600;
+            font-size: 20px;
+            color: #3B556A;
+        }
+        .desclaimer {
+            font-weight: 500;
+            font-size: 20px;
+            color: #3B556A;
+        }
+    }
+
+    .gj-datepicker {
+        .datepicker {
+            border-right: 0px;
+        }
+
+        .input-group-append {
+            .btn {
+                border-left: 0px;
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .btn-add-now {
+        background-color: #056585;
+        color: #fff;
+
+        &:hover {
+        background-color: #486068;
+        color: #fff;
+        }
+    }
+
+    .payment-instruction {
+        font-weight: 400;
+        font-size: 14px !important;
+        color: #99A8B4;
+    }
+
+    .bank {
+        .bank-item {
+            h3 {
+                font-weight: 700;
+                font-size: 16px;
+                color: #11283A;
+                margin-bottom: 0;
+            }
+            p {
+                margin-bottom: 0;
+                font-weight: normal;
+                font-size: 14px;
+                color: #11283A;
+            }
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+            }
+
+            .bank-image {
+                float: left;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+
+    .btn-cancel {
+        color: #F9B3AE;
+        border-color: #F9B3AE;
+        border-radius: 0;
+
+        &:hover {
+        color: #ff8a8a;
+        border-color: #ff8a8a;
+        }
+    }
+}
+
+// halaman succsssess
+.section-succsess-header {
+    min-height: 200px;
+    background-color: #F3F3F3;
+    margin-top: -100px;
+}
+.section-succsess {
+    height: 90vh;
+    background-color: #F3F3F3;
+
+    h1 {
+        font-weight: 700;
+        font-size: 25px;
+        color: #11283A;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #99A8B4;
+    }
+
+    .btn-home {
+        background-color: #036C8A;
+        color: #fff;
+        font-weight: 600;
+    }
+}
